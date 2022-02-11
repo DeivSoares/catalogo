@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="loginstyle.css">
+    <title>Login Form</title>
+    <script>
+        function Continue() {
+            var continuar = document.getElementById('continuar').value;
+            location.href = "http://localhost:5501/Cat%C3%A1logo/index.html" + continuar;
+        }
+        function valida() {
+            if (document.getElementById('usuario').value == '') {
+                alert('Preencha o campo de Usuário');
+                document.getElementById('usuario').focus();
+                return false;
+            }
+            if (document.getElementById('usuario').value == 'Tchan') {
+                return true;
+            }
+
+            if (document.getElementById('senha').value == '') {
+                alert('Preencha o campo da Senha');
+                document.getElementById('senha').focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <h2>Login</h2>
+        <!--LOGIN E SENHA-->
+        <form action="index2.html" onsubmit='valida()'>
+            <!--LOGIN-->
+            <section class="log-senha">
+                <input type="text" name="username" placeholder="Digite Seu Usuário" id="usuario">
+                <div class="sublinhado"></div>
+            </section>
+            <!--SENHA-->
+            <section class="log-senha">
+                <input type="password" name="password" placeholder="Digite sua Senha" id="senha">
+                <div class="sublinhado"></div>
+            </section>
+
+            <input type="submit" value="Continue" id="continuar" onclick="Continue()">
+        </form>
+        <!--CONECTAR COM REDES SOCIAIS-->
+        <footer>
+            <span>Ou conecte-se com sua Rede Social</span>
+            <!--TWITTER-->
+            <div class="social-fields">
+                <div class="social-field twitter">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        Entre com o Twitter
+                    </a>
+                </div>
+                <!--FACEBOOK-->
+                <div class="social-field facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        Entre com o Facebook
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

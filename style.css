@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #5ed4f246;
+    --cor1: #16C5F0;
+    --cor2: #119ABD;
+    --cor3: #2C6370;
+    --cor4: #0A5C70;
+    --cor5: #EBEBEB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    min-height: 93.922px;
+    text-align: center;
+}
+
+header>#titulo {
+    text-shadow: 2px 2px 0px #00000031;
+    font-size: 2em;
+    margin: auto;
+}
+
+/*NAV*/
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px #00000033;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav>a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    font-size: 20px;
+}
+
+/*-----*/
+
+/*MAIN*/
+main {
+    background-color: var(--cor5);
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 1300px;
+    min-height: 340px;
+    max-height: 100%;
+    text-align: center;
+    box-shadow: 0px 7px 10px #0000007c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+/*----*/
+section {
+    padding-top: 30px;
+}
+
+.itens {
+    width: 236px;
+    height: 324px;
+    margin: 0 8px 16px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 10px #0000007c;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    display: inline-block;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.itens>p {
+    display: none;
+}
+
+.itens:hover>p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itens:hover {
+    transition: 0.2s;
+    height: 400px;
+}
+
+.itens>hr {
+    display: none;
+}
+
+.itens:hover>hr {
+    transition: 0.5s;
+    display: block;
+}
+
+#perfil {
+    float: right;
+    width: 130px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+span, a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span:hover>a {
+    transition: 0.5s;
+    font-size: 18px;
+    text-decoration: underline;
+}
