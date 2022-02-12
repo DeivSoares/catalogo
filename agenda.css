@@ -10,6 +10,7 @@
   --cor2: #119ABD;
   --cor3: #2C6370;
   --cor4: #0A5C70;
+  --cor5: #EBEBEB;
   --teal-050: #effcf6;
   --teal-100: #c6f7e2;
   --teal-200: #8eedc7;
@@ -77,7 +78,7 @@ nav>a:hover {
 
 main {
   color: black;
-  background-color: white;
+  background-color: var(--cor5);
   margin: auto;
   margin-bottom: 30px;
   min-width: 300px;
