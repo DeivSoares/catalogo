@@ -99,7 +99,7 @@ main {
   max-width: max-content;
   margin: 3em auto 0 auto;
   padding: 1.5em;
-  background-color: #fff;
+  background-color: var(--cor5);
   border: 2px solid var(--blue-grey-200);
   border-radius: 8px;
 }
@@ -166,6 +166,9 @@ main {
   color: var(--teal-900);
 }
 
+section{
+  background-color: white;
+}
 section {
   display: none;
 }
