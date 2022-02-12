@@ -127,6 +127,10 @@ footer {
     text-align: center;
 }
 
+footer>a, p {
+    padding: 10px;
+}
+
 span, a {
     color: black;
     font-weight: bold;
@@ -137,4 +141,9 @@ span:hover>a {
     transition: 0.5s;
     font-size: 18px;
     text-decoration: underline;
+}
+
+#cafe {
+    width: 15px;
+    height: 15px;
 }
