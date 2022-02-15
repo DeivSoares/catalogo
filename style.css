@@ -39,7 +39,6 @@ body {
     background-color: var(--cor0);
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
 }
 
 header {
@@ -49,12 +48,18 @@ header {
 }
 
 header>#titulo {
+    color: white;
     text-shadow: 2px 2px 0px #00000031;
     font-size: 2em;
     padding-top: 50px;
 }
 
-/*NAV*/
+#perfil {
+    float: right;
+    width: 130px;
+}
+
+/*NAVEGAÇÃO*/
 nav {
     background-color: var(--cor4);
     padding: 10px;
@@ -80,18 +85,13 @@ nav>a:hover {
 
 /*MAIN*/
 
-/*TESTE ABAIXO*/
-
-
-/*TESTE ACIMA*/
 main {
     background-color: var(--cor5);
     margin: auto;
     margin-bottom: 15px;
-    min-width: 300px;
+    min-width: 60vw;
     max-width: 80vw;
-    min-height: 340px;
-    max-height: 100%;
+    height: 100%;
     text-align: center;
     box-shadow: 0px 7px 10px #0000007c;
     border-bottom-left-radius: 10px;
@@ -119,8 +119,8 @@ section {
 
 
 .gifs{
-    width: 18vw;
-    height: 44vh;
+    width: 60%;
+    height: 44%;
 }
 strong {
     font-size: 3vh;
@@ -161,14 +161,10 @@ strong {
     display: block;
 }
 
-#perfil {
-    float: right;
-    width: 130px;
-}
-
 footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 2vw;
 }
 
 footer>a, p {
@@ -183,7 +179,10 @@ span, a {
 }
 
 span:hover>a {
+    background-color: #5ed4f2ad;
+    border-radius: 6px;
+    padding: 5px;
     transition: 0.5s;
-    font-size: 18px;
+    font-size: 2.1vw;
     text-decoration: underline;
 }

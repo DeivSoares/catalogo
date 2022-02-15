@@ -38,7 +38,6 @@ body {
     background-color: var(--cor0);
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
 }
 
 header {
@@ -47,12 +46,11 @@ header {
     text-align: center;
 }
 
-header>h1 {
+header>#titulo {
     color: white;
-    text-shadow: 2px 2px 0px #00000038;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
-    margin: auto;
+    text-shadow: 2px 2px 0px #00000031;
+    font-size: 2em;
+    padding-top: 50px;
 }
 
 nav {
@@ -76,53 +74,31 @@ nav>a:hover {
     font-size: 20px;
 }
 
-.bottom-home {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 0px;
-    float: left;
-}
-
-.bottom-next {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    float: left;
-}
-
-#insurgentemari {
-    margin-left: 390px;
-    width: 250px;
-}
-
-#protectmari {
-    margin-left: 10px;
-    width: 251px;
-}
-
-#banner {
-    width: 100%;
-    max-height: 328px;
-}
-
-#titulo {
-    text-align: center;
-}
-
 main {
-    color: black;
-    background-color: white;
+    background-color: var(--cor5);
     margin: auto;
-    margin-bottom: 30px;
-    min-width: 300px;
-    max-width: 1000px;
+    margin-bottom: 15px;
+    min-width: 60vw;
+    max-width: 80vw;
+    height: 100%;
     text-align: center;
     box-shadow: 0px 7px 10px #0000007c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    position: relative;
 }
 
+#banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(imagens/leechmarianjos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1,h2,h3{
+    font-size: 2vw;
+}
 #contato {
-    width: 200px;
+    width: 25vw;
 }

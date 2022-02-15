@@ -39,11 +39,10 @@ body {
     background-color: var(--cor0);
 }
 
-.bottom-home {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 0px;
-    float: left;
+body>h1{
+    color: red;
+    margin-top: 30vh;
+    text-align: center;
 }
 
 header {
@@ -52,18 +51,19 @@ header {
     text-align: center;
 }
 
-header>h1 {
-    color: black;
-    text-shadow: 2px 2px 0px #00000038;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
-    margin: auto;
+header>#titulo {
+    color: white;
+    text-shadow: 2px 2px 0px #00000031;
+    font-size: 2em;
+    padding-top: 50px;
 }
-
+/*NAVEGAÇÃO*/
 nav {
     background-color: var(--cor4);
-    padding: 10px;
     box-shadow: 0px 7px 7px #00000033;
+    text-shadow: 2px 2px 0px #00000031;
+    padding: 10px;
+    
 }
 
 nav>a {
@@ -82,6 +82,7 @@ nav>a:hover {
 }
 
 main {
+    display: none;/*DESATIVAR DISPLAY: NONE;*/
     color: black;
     background-color: white;
     margin: auto;
@@ -100,39 +101,37 @@ main {
     text-align: left;
 }
 
-p {
-    margin: 5px;
-}
-
-#unico2 {
-    margin: 10px;
-    margin-left: 0px;
-    padding: 10px 0px 10px 0px;
+div {
+    box-shadow: 0px 4px 10px #0000007c;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+    padding: 10px;
 }
 
 .textos {
+    box-shadow: 0px 4px 10px #0000007c;
+    border: 2px solid black;
     text-align: left;
     margin: 5px;
+    padding: 10px;
     display: inline-block;
+    border-radius: 8px;
 }
 
-.textos2 {
-    text-align: left;
+section, p {
+    font-weight: bold;
     margin: 5px;
-    float: left;
-}
-
-div {
-    width: 500px;
-    float: left;
 }
 
 form {
     max-width: 550px;
 }
 
-section, p {
-    font-weight: bold;
+h3 {
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .checkboxes1 {
@@ -151,7 +150,7 @@ aside {
     display: inline-block;
 }
 
-#button {
+footer>a>#button {
     width: 96px;
     height: 30px;
     margin: auto;

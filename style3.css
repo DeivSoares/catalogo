@@ -36,54 +36,6 @@
 
 body {
     background-color: var(--cor0);
-    background-attachment: fixed;
-}
-
-#bottom-back {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 0px;
-    float: left;
-}
-
-#bottom-home {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    float: left;
-}
-
-#bottom-next {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    float: left;
-}
-
-#upcharcorporation {
-    text-align: center;
-    margin-right: 120px;
-}
-
-#titulo {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-
-#descricao {
-    text-align: center;
-    background-color: white;
-}
-
-#discord {
-    width: 200px;
-}
-
-#face {
-    width: 200px;
 }
 
 header {
@@ -92,12 +44,11 @@ header {
     text-align: center;
 }
 
-header>h1 {
+header>#titulo {
     color: white;
-    text-shadow: 2px 2px 0px #00000038;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
-    margin: auto;
+    text-shadow: 2px 2px 0px #00000031;
+    font-size: 2em;
+    padding-top: 50px;
 }
 
 nav {
@@ -122,14 +73,33 @@ nav>a:hover {
 }
 
 main {
-    color: black;
     background-color: var(--cor5);
     margin: auto;
-    margin-bottom: 30px;
-    min-width: 300px;
-    max-width: 1000px;
+    margin-bottom: 15px;
+    min-width: 60vw;
+    max-width: 80vw;
+    height: 100%;
     text-align: center;
     box-shadow: 0px 7px 10px #0000007c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+#ucc{
+    width: 20vw;
+}
+
+#descricao{
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+h1,h2,h3{
+    font-size: 2vw;
+}
+.contato {
+    width: 15vw;
 }
