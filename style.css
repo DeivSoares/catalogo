@@ -89,7 +89,7 @@ main {
     margin: auto;
     margin-bottom: 15px;
     min-width: 300px;
-    max-width: 1200px;
+    max-width: 80vw;
     min-height: 340px;
     max-height: 60vh;
     text-align: center;
@@ -120,10 +120,16 @@ section {
     position: relative;
 }
 
+.gifs{
+    width: 18vw;
+    height: 44vh;
+}
 strong {
     font-size: 20px;
 }
-
+.itens>p,h2{
+    font-size: 1.9vw;
+}
 .itens>p {
     display: none;
 }
@@ -131,6 +137,7 @@ strong {
 .itens:hover>p {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
 }
 
 .itens:hover {
