@@ -51,7 +51,7 @@ header {
 header>#titulo {
     text-shadow: 2px 2px 0px #00000031;
     font-size: 2em;
-    margin: auto;
+    padding-top: 50px;
 }
 
 /*NAV*/
@@ -91,7 +91,7 @@ main {
     min-width: 300px;
     max-width: 80vw;
     min-height: 340px;
-    max-height: 60vh;
+    max-height: 90vh;
     text-align: center;
     box-shadow: 0px 7px 10px #0000007c;
     border-bottom-left-radius: 10px;
@@ -103,10 +103,7 @@ main {
 section {
     padding-top: 30px;
 }
-#catalogo{
-    display: inline-block;
-    position: relative;
-}
+
 .itens {
     width: 18vw;
     height: 50vh;
@@ -127,22 +124,30 @@ section {
 strong {
     font-size: 20px;
 }
-.itens>p,h2{
+
+.itens:hover {
+    transition: 0.2s;
+    height: 68vh;
+}
+
+.itens>h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-size: 1.9vw;
 }
+
+
 .itens>p {
     display: none;
 }
 
+
 .itens:hover>p {
     display: block;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2vw;
-}
-
-.itens:hover {
-    transition: 0.2s;
-    height: 410px;
+    font-size: 3vh;
+    font-size: 1.4vw;
 }
 
 .itens>hr {
