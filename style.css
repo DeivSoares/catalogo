@@ -84,7 +84,7 @@ main {
     margin: auto;
     margin-bottom: 15px;
     min-width: 300px;
-    max-width: 1300px;
+    max-width: 1200px;
     min-height: 340px;
     max-height: 100%;
     text-align: center;
@@ -126,7 +126,7 @@ strong {
 
 .itens:hover {
     transition: 0.2s;
-    height: 400px;
+    height: 410px;
 }
 
 .itens>hr {
