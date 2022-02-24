@@ -82,31 +82,30 @@ nav>a:hover {
 }
 
 main {
-    display: none;/*DESATIVAR DISPLAY: NONE;*/
     color: black;
     background-color: white;
+    box-shadow: 0px 7px 10px #0000007c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     min-width: 300px;
     max-width: 1000px;
     text-align: center;
-    box-shadow: 0px 7px 10px #0000007c;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 #texts {
     margin: 10px;
     text-align: left;
+    display: flex;
 }
 
-div {
-    box-shadow: 0px 4px 10px #0000007c;
-    border: 2px solid black;
+#conteiner{
+    border: 1px solid black;
     border-radius: 8px;
-    width: 500px;
-    padding: 10px;
+    width: 410px;
+    padding: 10px
 }
 
 .textos {
@@ -146,11 +145,27 @@ h3 {
     text-align: left;
 }
 
-aside {
-    display: inline-block;
+#rightbox {
+    border: 2px solid black;
+    box-shadow: 0px 4px 10px #0000007c;
+    width: 240px;
+    height: 280px;
+    text-align: center;
+    margin-left: 18vw;
 }
 
-footer>a>#button {
+img {
+    height: 260px;
+}
+
+#button {
+    box-shadow: 0px 4px 10px #0000007c;
+    width: 96px;
+    height: 30px;
+    margin: auto;
+}
+
+footer>a>#botao {
     width: 96px;
     height: 30px;
     margin: auto;
