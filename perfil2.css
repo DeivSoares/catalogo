@@ -102,6 +102,7 @@ main {
 }
 
 #conteiner{
+    box-shadow: 0px 4px 10px #0000007c;
     border: 1px solid black;
     border-radius: 8px;
     width: 410px;
