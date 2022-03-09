@@ -8,30 +8,8 @@
     <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://levelupgames.com.br/levelup/imagens/fixar/levelup.png" type="image/png">
     <link rel="stylesheet" href="loginstyle.css">
+    <script src="login.js"></script>
     <title>Login Form</title>
-    <script>
-        function Continue() {
-            var continuar = document.getElementById('continuar').value;
-            location.href = "http://localhost:5501/Cat%C3%A1logo/index.html" + continuar;
-        }
-        function valida() {
-            if (document.getElementById('usuario').value == '') {
-                alert('Preencha o campo de Usuário');
-                document.getElementById('usuario').focus();
-                return false;
-            }
-            if (document.getElementById('usuario').value == 'Tchan') {
-                return true;
-            }
-
-            if (document.getElementById('senha').value == '') {
-                alert('Preencha o campo da Senha');
-                document.getElementById('senha').focus();
-                return false;
-            }
-            return true;
-        }
-    </script>
 </head>
 
 <body>
