@@ -173,18 +173,8 @@ main {
     }
 }
 
-#center{
-    text-align: center;
-}
-
-#resenha {
-    width: 300px;
-    height: 60px;
-}
-
-#ava{
-    width: 80px;
-    height: 30px
+#contato {
+    width: 25vw;
 }
 
 footer {
