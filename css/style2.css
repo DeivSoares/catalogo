@@ -91,7 +91,7 @@ main {
 #banner{
     width: 100%;
     height: 500px;
-    background-image: url(imagens/leechmarianjos.png);
+    background-image: url(../imagens/leechmarianjos.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

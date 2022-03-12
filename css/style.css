@@ -54,11 +54,6 @@ header>#titulo {
     padding-top: 50px;
 }
 
-#perfil {
-    float: right;
-    width: 130px;
-}
-
 /*NAVEGAÇÃO*/
 nav {
     background-color: var(--cor4);
